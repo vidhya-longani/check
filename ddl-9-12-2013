@@ -1,0 +1,15 @@
+CREATE TABLE `tbl_todos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `description` varchar(200) NOT NULL,
+  `category_id` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL DEFAULT 'incomplete',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `tbl_todos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `description` varchar(200) NOT NULL,
+  `category_id` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL DEFAULT 'incomplete',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
